@@ -140,19 +140,4 @@ Install via `requirements.txt` where possible:
 
 ---
 
-## 6. Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone <your-repo-url>.git
-   cd ai-lms-system
-
-2. **Create and activate a virtual environment (recommended):**
-# Example using venv
-python -m venv .venv
-source .venv/bin/activate          # Linux/macOS
-.venv\Scripts\activate             # Windows
-
-
 
