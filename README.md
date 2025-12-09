@@ -147,3 +147,18 @@ Install via `requirements.txt` where possible:
    ```bash
    git clone <your-repo-url>.git
    cd ai-lms-system
+
+2. **Create and activate a virtual environment (recommended):**
+# Example using venv
+python -m venv .venv
+source .venv/bin/activate          # Linux/macOS
+.venv\Scripts\activate             # Windows
+
+3. **Install dependencies:**
+
+ ```bash
+  pip install -r requirements.txt
+If the command fails or some packages are missing, install them individually, for example:
+ ```bash
+pip install grpcio grpcio-tools transformers torch cohere
+
